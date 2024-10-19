@@ -5,7 +5,7 @@
 
 
 ### Auth User App - Микросервис 
-### environment variables are forbidden in Git Repositories so make env files by yourself then copy/past content.
+
 
 ### .env.app
 ```.env
