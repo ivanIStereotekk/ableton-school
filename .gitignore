@@ -1,0 +1,6 @@
+/venv
+.env.app
+.env.postgres
+.env.redis
+__pycache__/
+temp_needs.txt
