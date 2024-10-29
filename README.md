@@ -1,11 +1,10 @@
 ** Users management **
 
 > [!NOTE]
-> Backend for Ableton school ( В процессе разработки ).
-> Можно запустить !
+> Rest API для сайта .
+> 
 
 ### Auth User App - Микросервис 
-### environment variables are forbidden in Git Repositories so make env files by yourself then copy/past content.
 
 ### .env.app
 ```.env
@@ -61,10 +60,3 @@ CACHE_EXP = 3600
 CACHE_PREFIX = 'Veles-app:'
 
 ```
-#### Если возникнет желание запустить:
-- создайте в папке проекта файлы: .env.app | .env.postgres | .env.redis 
-- скопируйте переменные окружения из текущего файла согласно секциям которые видите
-- перейдите в директорию и запустите docker compose up --build
-- подождите сборку и запуск
-- проект проверен,запускается и исправно работает (MAC OS)
-
